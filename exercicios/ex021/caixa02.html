@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: blanchedalmond;
+            margin: 0px;
+        }
+
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 3px;
+        }
+
+        nav {
+            background-color: rgb(185, 188, 190);
+            padding: 3px;
+            border-radius: 1px;
+
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+            color: rgb(189, 255, 255);
+        }
+
+        main {
+            background-color: rgba(34, 114, 219, 0.685);
+            padding: 10px;
+            margin: 10px;
+            border-radius: 3px;
+            
+        }
+
+        article {
+            background-color: lightgray;
+            padding: 5px;
+            border-radius: 3px;
+        }
+
+        article > aside {
+            background-color: aliceblue;
+            width: 250px;
+        }
+
+        footer {
+           background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 6px; 
+            border-radius: 3px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="noticias">
+            <p>Noticias sobre o Brasil</p>
+        </section>
+        <section id="assuntos">
+            <article>
+                <h2>Esportes politica e Tecnologia</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda, reprehenderit! Cupiditate repellat maiores perspiciatis eos asperiores recusandae, impedit ex officiis atque id culpa ad! Tenetur at iusto obcaecati quibusdam voluptatum.</p>
+                <aside>
+                    <p>Artigo escrito por <strong>Manuel Ferreira</strong></p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por &copy;Escanornocursoemvideo</p> 
+    </footer>
+</body>
+</html>

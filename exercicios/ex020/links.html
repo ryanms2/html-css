@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links personalizados</title>
+    <style>
+        body {
+            background-color: rgba(32, 173, 255, 0.685);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a {
+            color: rgb(3, 124, 88);
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited {
+            color: rgb(1, 82, 58);
+        }
+
+        a:hover {
+            color: brown;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: coral;
+        }
+        
+        .especial::before {
+            content: '✿ ';
+        }
+
+        .especial::after {
+            content: ' ✿';
+        }
+        .especial {
+            background-color: aquamarine;
+            border-radius: 2px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Links personalizados</h1>
+    <ul>
+        <li><a href="https://www.youtube.com/channel/UC4sZToUUjNJOl78qVnCnQ7A" target="_blank" rel="external">Canal do YouTube</a></li>
+        <li><a class="especial" href="https://www.linkedin.com/in/rian-santos-0116aa218/" target="_blank" rel="external">Site do linkedin</a></li>
+        <li><a href="https://www.facebook.com/profile.php?id=100028717281415" target="_blank" rel="external">Facebook</a></li>
+    </ul>
+</body>
+</html>

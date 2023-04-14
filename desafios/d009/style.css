@@ -1,0 +1,22 @@
+body {
+    background-color: aquamarine;
+}
+
+section {
+    text-align: center;
+    
+}
+
+h1 {
+    text-align: center;
+}
+
+iframe {
+    margin-left: 30%;
+    border-radius: 10px;
+}
+
+p {
+    text-align: center;
+}
+
